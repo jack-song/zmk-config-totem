@@ -80,11 +80,11 @@
                 nav_layer {
                     label= "NAVI"                              ;
                     bindings = <
-                        // Adjusted bindings to match Vial layout
-                        &kp LSFT(KC_1)  &kp LSFT(KC_2)          &kp LSFT(KC_3)  &kp LSFT(KC_4)          &kp LSFT(KC_5)                  &kp LSFT(KC_6)  &kp LSFT(KC_7)          &kp LSFT(KC_8)  &kp LSFT(KC_9)  &kp LSFT(KC_0)
-                        &kp KC_GRAVE    &kp LSFT(KC_MINUS)      &kp KC_KP_EQUAL &kp LSFT(KC_LBRACKET)   &kp KC_LBRACKET                 &kp LEFT        &kp DOWN                &kp UP          &kp RIGHT       &trans
- &kp KC_NO              &kp KC_BSLASH   &kp KC_KP_MINUS         &kp KC_KP_PLUS  &kp LSFT(KC_RBRACKET)   &kp KC_RBRACKET                 &trans          &kp LSFT(KC_BSLASH)     &trans          &trans          &trans          &kp KC_NO
-                        &trans      &trans       &trans                &trans &trans &trans
+                // Adjusted bindings to match Vial layout
+                &kp LSFT(KC_1)  &kp LSFT(KC_2)          &kp LSFT(KC_3)  &kp LSFT(KC_4)          &kp LSFT(KC_5)                  &kp LSFT(KC_6)  &kp LSFT(KC_7)          &kp LSFT(KC_8)  &kp LSFT(KC_9)  &kp LSFT(KC_0)
+                &kp KC_GRAVE    &kp LSFT(KC_MINUS)      &kp KC_KP_EQUAL &kp LSFT(KC_LBRACKET)   &kp KC_LBRACKET                 &kp LEFT        &kp DOWN                &kp UP          &kp RIGHT       &trans
+&kp KC_NO       &kp KC_BSLASH   &kp KC_KP_MINUS         &kp KC_KP_PLUS  &kp LSFT(KC_RBRACKET)   &kp KC_RBRACKET                 &trans          &kp LSFT(KC_BSLASH)     &trans          &trans          &trans          &kp KC_NO
+                &trans      &trans       &trans                &trans &trans &trans
                         
                         
                         
