@@ -66,11 +66,10 @@
                 base_layer {
                     label= "BASE"                              ;
                     bindings = <
-                        // Adjusted bindings to match Vial layout
-                &kp Q   &kp KC_W   &kp KC_F   &kp KC_P   &kp KC_B            &kp KC_J   &kp KC_L   &kp KC_U          &kp KC_Y        &kp KC_SCOLON
-                &kp KC_A   &kp KC_R   &kp KC_S   &kp KC_T   &kp KC_G            &kp KC_M   &kp KC_N   &kp KC_E          &kp KC_I        &kp KC_O
-&trans       &kp KC_Z   &kp KC_X   &kp KC_C   &kp KC_D   &kp KC_V            &kp KC_K   &kp KC_H   &kp KC_COMMA      &kp KC_DOT      &kp KC_SLASH            &trans
-                        &mt LGUI ESC &mt LSHFT TAB &kp SPACE                    &kp BSPC   &lt NAV ENTER &lt SYM QUOTE
+                &kp Q      &kp W      &kp F      &kp P      &kp B               &kp J      &kp L      &kp U          &kp Y        &kp SEMI
+                &kp A      &kp R      &kp S      &kp T      &kp G               &kp M      &kp N      &kp E          &kp I        &kp O
+&trans          &kp Z      &kp X      &kp C      &kp D      &kp V               &kp K      &kp H      &kp COMMA      &kp DOT      &kp FSLH      &trans
+                          &mt LGUI ESC &mt LSHFT TAB &kp SPACE                  &kp BSPC   &lt NAV ENTER &lt SYM SQT
                     >;
                 };
 
@@ -80,15 +79,10 @@
                 nav_layer {
                     label= "NAVI"                              ;
                     bindings = <
-                // Adjusted bindings to match Vial layout
-                &kp LSFT(KC_1)  &kp LSFT(KC_2)          &kp LSFT(KC_3)  &kp LSFT(KC_4)          &kp LSFT(KC_5)                  &kp LSFT(KC_6)  &kp LSFT(KC_7)          &kp LSFT(KC_8)  &kp LSFT(KC_9)  &kp LSFT(KC_0)
-                &kp KC_GRAVE    &kp LSFT(KC_MINUS)      &kp KC_KP_EQUAL &kp LSFT(KC_LBRACKET)   &kp KC_LBRACKET                 &kp LEFT        &kp DOWN                &kp UP          &kp RIGHT       &trans
-&kp KC_NO       &kp KC_BSLASH   &kp KC_KP_MINUS         &kp KC_KP_PLUS  &kp LSFT(KC_RBRACKET)   &kp KC_RBRACKET                 &trans          &kp LSFT(KC_BSLASH)     &trans          &trans          &trans          &kp KC_NO
-                &trans      &trans       &trans                &trans &trans &trans
-                        
-                        
-                        
-                        
+                &kp EXCL    &kp AT          &kp HASH    &kp DLLR          &kp PRCNT                &kp CARET   &kp AMPS           &kp STAR    &kp LPAR    &kp RPAR
+                &kp GRAVE   &kp MINUS       &kp EQUAL   &kp LBRC          &kp LBKT                 &kp LEFT    &kp DOWN           &kp UP      &kp RIGHT   &trans
+&none           &kp BSLH    &kp UNDER       &kp PLUS    &kp RBRC          &kp RBKT                 &trans      &kp PIPE           &trans      &trans      &trans      &none
+                           &trans          &trans      &trans                                      &trans      &trans             &trans
                     >;
                 };
 
