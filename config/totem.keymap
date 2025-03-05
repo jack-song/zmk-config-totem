@@ -38,7 +38,7 @@
                 , <&macro_press &kp LSHFT>
                 , <&macro_tap &kp N4>
                 , <&macro_release &kp LGUI>
-                , <&macro_press &kp LSHFT>
+                , <&macro_release &kp LSHFT>
                 ;
         };
     };
