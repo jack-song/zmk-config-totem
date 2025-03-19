@@ -57,7 +57,7 @@
             compatible = "zmk,combos";
             combo_backtab {
                 timeout-ms = <50>;
-                key-positions = <3 4>;
+                key-positions = <1 2>;
                 bindings = <&backtab>;
             };
             combo_macscn {
