@@ -41,27 +41,42 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
+        backtab: backtab {
+            label = "backtab";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp TAB>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
     };
 
      combos {
             compatible = "zmk,combos";
+            combo_backtab {
+                timeout-ms = <50>;
+                key-positions = <3 4>;
+                bindings = <&backtab>;
+            };
             combo_macscn {
-                timeout-ms = <100>;
+                timeout-ms = <50>;
                 key-positions = <2 3>;
                 bindings = <&macscn>;
             };
             combo_back {
-                timeout-ms = <100>;
+                timeout-ms = <50>;
                 key-positions = <21 22>;
                 bindings = <&kp BSPC>;
             };
             combo_enter {
-                timeout-ms = <100>;
+                timeout-ms = <50>;
                 key-positions = <22 23>;
                 bindings = <&kp ENTER>;
             };
             combo_del {
-                timeout-ms = <100>;
+                timeout-ms = <50>;
                 key-positions = <23 24>;
                 bindings = <&kp DEL>;
             };
@@ -77,7 +92,7 @@
                 &kp Q           &kp W      &kp F      &kp P      &kp B               &kp J      &kp L      &kp U          &kp Y        &kp SEMI
                 &kp A           &kp R      &kp S      &kp T      &kp G               &kp M      &kp N      &kp E          &kp I        &kp O
 &trans          &mt LCTRL Z     &kp X      &kp C      &kp D      &kp V               &kp K      &kp H      &kp COMMA      &kp DOT      &kp FSLH      &trans
-                          &mt LGUI TAB &mt LSHFT ESC &kp SPACE                  &kp BSPC   &lt NAV ENTER &lt SYM SQT
+                          &mt LGUI ESC &mt LSHFT TAB &kp SPACE                  &kp BSPC   &lt NAV ENTER &lt SYM SQT
                     >;
                 };
 
